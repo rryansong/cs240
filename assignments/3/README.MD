@@ -8,19 +8,23 @@
 
 ### 1. How to add custom search path for header files and libraries file for gcc compiling (10 Points)
 
-**Answer**:
+**Answer**: -I dir and -L dir
 
 ### 2. How to create a int array of length 100 using heap memory (10 Points)
 
-**Answer**:
+**Answer**: arr = (int*) malloc(100 * sizeof(int));
 
 ### 3. Give each an example of dangling pointer and wild pointer (10 Points)
 
-**Answer**:
+**Answer**:    dangling pointer: int *ptr = (int *)malloc(sizeof(int));
+                free(ptr);
+    
+               wild pointer: int *p;
+    
 
 ### 4. What are the four different segments of a C program runtime memory layout and what are they used of? (10 Points)
 
-**Answer**:
+**Answer**:Initialized Data Segment, Uninitialized Data Segment, Stack Segment, Heap Segment.
 
 # Part2: Coding  (60 Points)
 
